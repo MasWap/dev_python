@@ -1,5 +1,7 @@
 # # Exercice 1
 
+# Affecter des elements à des variables
+
 # # Variable "prenom" qui contient Pierre
 # from operator import truediv
 
@@ -29,6 +31,8 @@
 
 # # Exercice 2
 
+# Correction de la variable site_web
+
 # # Correction de l'erreur :
 # # Erreur dans la variable site_web, corrigez la :
 # site_web = "Voila"
@@ -40,6 +44,8 @@
 # # code a corriger pour le 003
 # # nombre = 15
 # # print("Le nombre est " + nombre)
+
+# Correction du code
 
 # nombre = 15
 # nombreRefactor = int(nombre)
@@ -59,11 +65,14 @@
 # # b = 6
 # # c = 3
 
+# Afficher 2, 6, 3
+
 # a, b, c = [2, 6, 3]
 # print(a, b, c, sep=" + ")
 
 
 # # Exercice 6
+# Ca convertie l'objet range en liste
 
 # list1 = range(3)
 # list2 = range(5)
@@ -72,6 +81,7 @@
 
 
 # # Exercice 7
+# Voir si la variable est bien en String
 
 # typeInteger = int
 # typeChar = str
@@ -88,6 +98,8 @@
  
 
 # # Exercice 8
+
+# Remplacer une chaîne de caractère par une autre
 
 # phrase = "Bonjour les amis"
 # nouvelle_phrase = phrase.replace("Bonjour", "Salut")
@@ -123,6 +135,31 @@
 # liste6 = [i for i in range(201) if i % 2 == 0]
 # print(liste6)
 
-import random
-dés = random.randint(1, 6)
-print (dés)
+# import random
+# dés = random.randint(1, 6)
+# print (dés)
+
+# EXERCICE 9
+# Compter le nombre d'occurences d'une lettre dans une chaîne
+
+# lettre_a_chercher = "a"
+# phrase = "Voila les amis, Alors ça va ?"
+# compteur = 0
+# for lettre in phrase:
+#     if lettre == lettre_a_chercher:
+#         compteur = compteur + 1
+# print(compteur)
+
+
+# Essai mais ne fonctionne pas
+
+# phrase = "Voila les amis, Alors ça vaeaaaaaaaaaaaa ?"
+# dictionaire = {}
+# compteur = 0
+# for lettre in phrase:
+#     if lettre == lettre:
+#         list[lettre]
+#         compteur = compteur + 0
+#     else:
+#         compte = compteur + 1
+# print(lettre)
